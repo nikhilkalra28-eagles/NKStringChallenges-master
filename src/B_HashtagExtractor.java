@@ -17,9 +17,14 @@ public class B_HashtagExtractor {
 
     public void extractHashtags(String post) {
         /* TODO: your code goes here */
-        int start1 = post.indexOf("#");
-        int end1 = post.indexOf("", start1);
-        System.out.println("Hashtag:" );
+        int start = post.indexOf("#");
+        int end = post.indexOf(" ", start);
+        String hashtag = post.substring(start, end);
+        int start2 = post.indexOf(" ", end );
+        int end2 = post.indexOf(" ", start2 );
+        String hashtag2 = post.substring(start2, end2);
+        System.out.println("Hashtag:" + hashtag );
+        System.out.println("Hashtag:" + hashtag2);
 
 
 
