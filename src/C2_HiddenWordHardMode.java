@@ -32,7 +32,10 @@ public class C2_HiddenWordHardMode {
                 int start = line.indexOf("*")+1;
                 int end = line.indexOf("~");
                 
-           //     if
+              if (start > 0 && end >= start){
+                  String hiddenWord = line.substring(start,end);
+                  System.out.println(hiddenWord);
+              }
 
             }
             scanner.close();
