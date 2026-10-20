@@ -29,6 +29,10 @@ public class C2_HiddenWordHardMode {
             while (scanner.hasNextLine()) {
                 String line = scanner.nextLine();
                 /* TODO: your code goes here */
+                int start = line.indexOf("*")+1;
+                int end = line.indexOf("~");
+                
+           //     if
 
             }
             scanner.close();

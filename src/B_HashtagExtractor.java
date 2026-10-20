@@ -20,8 +20,8 @@ public class B_HashtagExtractor {
         int start = post.indexOf("#");
         int end = post.indexOf(" ", start);
         String hashtag = post.substring(start, end);
-        int start2 = post.indexOf(" ", end );
-        int end2 = post.indexOf(" ", start2 );
+        int start2 = post.indexOf("#", end );
+        int end2 = post.indexOf("!", start2 );
         String hashtag2 = post.substring(start2, end2);
         System.out.println("Hashtag:" + hashtag );
         System.out.println("Hashtag:" + hashtag2);
