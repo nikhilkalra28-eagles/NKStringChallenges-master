@@ -36,7 +36,7 @@ public class C2_HiddenWordHardMode {
                   String hiddenWord = line.substring(start,end);
                   System.out.println(hiddenWord);
               }
-
+// j
             }
             scanner.close();
         } catch (FileNotFoundException e) {
