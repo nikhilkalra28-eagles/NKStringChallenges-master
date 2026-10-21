@@ -22,6 +22,7 @@ public class D_PasswordValidator {
 
     public boolean isValidPassword(String password) {
         /* TODO: your code goes here */
+        boolean hasPassword;
        // password.indexOf()
         return true; // this is a temporary return to avoid errors
     }
